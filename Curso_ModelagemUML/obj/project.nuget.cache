@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lQY3MNik9HLIScIfnPHKst/0O5PTMptbDsrUUp80pjCWEoVODlIfKmRrHGKv7hrLsxd0hi+WwwQXbai1hz8uxg==",
+  "success": true,
+  "projectFilePath": "C:\\Dev\\Projetos\\Curso_ModelagemUML\\Curso_ModelagemUML\\Curso_ModelagemUML.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ninoc\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\ninoc\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\ninoc\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\ninoc\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\ninoc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\ninoc\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}
