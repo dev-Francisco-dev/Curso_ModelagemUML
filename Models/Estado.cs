@@ -1,11 +1,12 @@
 ﻿
 namespace Models
 {
-    internal class Estado
+    public class Estado
     {
         private int Id { get; set; }
-        private string Nome { get; set; }
-        private ICollection<Cidade> cidade { get; set; }
+        private string Nome { get; set; } = null!;
+        private ICollection<Cidade> cidade { get; set; } = null!;
+        public Estado() { }
 
         public Estado(int id, string nome)
         {

@@ -15,8 +15,7 @@ namespace Models
         {
 
         }
-
-        public PagamentoCartao(int id, int pedidoId, EstadoPagamento estadoPagamento, Pedido pedido, Cliente cliente, Endereco endereco) : base(id, pedidoId, estadoPagamento, pedido, cliente, endereco)
+        public PagamentoCartao(int id, int pedidoId, EstadoPagamento estadoPagamento, Pedido pedido, Cliente cliente) : base(id, pedidoId, estadoPagamento, pedido, cliente)
         {
         }
 

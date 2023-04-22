@@ -6,13 +6,13 @@ namespace Models
     public class Cliente
     {
         private int Id { get; set; }
-        private string Nome { get; set; }
-        private string Email { get; set; }
-        private string CpfouCnpj { get; set; }
-        private ICollection<Pedido> Pedidos { get; set; }    
-        private TipoCliente TipoCliente { get; set; }
-        private ICollection<Telefone> Telefones { get; set; }
-        private ICollection<Endereco> Enderecos { get; set;}
+        private string Nome { get; set; } = null!;
+        private string Email { get; set; } = null!;
+        private string CpfouCnpj { get; set; } = null!;
+        private ICollection<Pedido> Pedidos { get; set; } = null!;
+        private TipoCliente? TipoCliente { get; set; }
+        private ICollection<Telefone>? Telefones { get; set; }
+        private ICollection<Endereco>? Enderecos { get; set;}
 
         public Cliente() { }
 

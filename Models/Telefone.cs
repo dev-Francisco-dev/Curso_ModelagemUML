@@ -5,7 +5,7 @@ namespace Models
     {
         private int Id { get; set; }
         private int ClienteId { get; set; }
-        private string Numero { get; set; }
+        private string Numero { get; set; } = null!;
         private Cliente Cliente { get; set; }
 
 

@@ -1,3 +1,4 @@
+global using Models;
 using Microsoft.EntityFrameworkCore;
 using Modelagem.API.DataBase;
 

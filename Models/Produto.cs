@@ -1,13 +1,12 @@
 ﻿namespace Models
 {
-    internal class Produto
+    public class Produto
     {
         private int Id { get; set; }
-        private string?  Nome { get; set; }
-        private double?  Preco { get; set; }
+        private string  Nome { get; set; } = null!;
+        private double  Preco { get; set; }
 
         private ICollection<Categoria>? Categorias { get;set; }
-
         public Produto(){}
         public Produto(int id, string nome, double preco)
         {
@@ -15,7 +14,6 @@
             this.Nome= nome;
             this.Preco = preco;
         }
-
         public override bool Equals(object? obj)
         {
             return obj is Produto produto &&
@@ -23,7 +21,6 @@
                    Nome == produto.Nome &&
                    Preco == produto.Preco;
         }
-
         public override int GetHashCode()
         {
             return HashCode.Combine(Id, Nome, Preco);

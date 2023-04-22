@@ -10,7 +10,7 @@ namespace Models
         public PagamentoBoleto(){            
         }
 
-        public PagamentoBoleto(int id, int pedidoId,DateTime dataVencimento, DateTime dataPagamento, EstadoPagamento estadoPagamento, Pedido pedido, Cliente cliente, Endereco endereco) : base(id, pedidoId, estadoPagamento, pedido, cliente, endereco)
+        public PagamentoBoleto(int id, int pedidoId,DateTime dataVencimento, DateTime dataPagamento, EstadoPagamento estadoPagamento, Pedido pedido, Cliente cliente) : base(id, pedidoId, estadoPagamento, pedido, cliente)
         {            
             DataVencimento = dataVencimento;
             DataPagamento = dataPagamento;

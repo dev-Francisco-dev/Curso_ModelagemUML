@@ -6,8 +6,8 @@ namespace Models
         private int Id { get; set; } 
         private int EstadoId { get; set; }
         private int EnderecoId { get; set; }
-        private string Nome { get; set; }
-        private Estado Estado;
+        private string Nome { get; set; } = null!;
+        private Estado Estado = null!;
 
         public Cidade() { }
 

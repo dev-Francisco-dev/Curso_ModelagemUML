@@ -5,13 +5,13 @@ namespace Models
     {
         private int Id { get; set; }
         private int ClientId { get; set; }
-        private string Logradouro { get; set; }
-        private string Numero{ get; set; }
-        private string Complemento { get; set; }
-        private string Bairro { get; set; }
-        private string Cep { get; set; }
-        private Cidade Cidade { get; set; }
-        private Cliente Cliente { get; set; }
+        private string Logradouro { get; set; } = null!;
+        private string? Numero{ get; set; }
+        private string? Complemento { get; set; }
+        private string Bairro { get; set; } = null!;
+        private string Cep { get; set; } = null!;
+        private Cidade Cidade { get; set; } = null!;
+        private Cliente Cliente { get; set; } = null!;
 
         public Endereco()
         {
