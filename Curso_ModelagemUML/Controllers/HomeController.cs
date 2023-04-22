@@ -1,8 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Curso_ModelagemUML.Controllers
+namespace modelagem.API.Controllers
 {
-
     public class HomeController : Controller
     {
         [HttpGet]
@@ -15,8 +14,9 @@ namespace Curso_ModelagemUML.Controllers
         {
             return Ok();        
         }
-
-
-
+        public IActionResult Insert(string asd) 
+        {
+            return Ok();
+        }
     }
 }

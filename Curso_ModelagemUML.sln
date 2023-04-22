@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Curso_ModelagemUML", "Curso_ModelagemUML\Curso_ModelagemUML.csproj", "{B83694B9-367F-468C-987A-9B505D8E7306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Modelagem.API", "Curso_ModelagemUML\Modelagem.API.csproj", "{B83694B9-367F-468C-987A-9B505D8E7306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{A966AC4B-8AF8-4E52-93B0-ABD1F0D32BC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Models", "Models\Models.csproj", "{A966AC4B-8AF8-4E52-93B0-ABD1F0D32BC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

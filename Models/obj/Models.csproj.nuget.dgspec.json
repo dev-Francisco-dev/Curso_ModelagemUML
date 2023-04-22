@@ -47,6 +47,10 @@
             "EntityFramework": {
               "target": "Package",
               "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.5, )"
             }
           },
           "imports": [
